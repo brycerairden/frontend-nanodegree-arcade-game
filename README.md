@@ -1,6 +1,27 @@
-frontend-nanodegree-arcade-game
-===============================
+# Memory Game Project
+Memory Game matching pairs of cards, built by Bryce Rairden, with a gaming theme.
 
-Students should use this [rubric](https://review.udacity.com/#!/projects/2696458597/rubric) for self-checking their submission. Make sure the functions you write are **object-oriented** - either class functions (like Player and Enemy) or class prototype functions such as Enemy.prototype.checkCollisions, and that the keyword 'this' is used appropriately within your class and class prototype functions to refer to the object the function is called upon. Also be sure that the **readme.md** file is updated with your instructions on both how to 1. Run and 2. Play your arcade game.
 
-For detailed instructions on how to get started, check out this [guide](https://docs.google.com/document/d/1v01aScPjSWCCWQLIpFqvg3-vXLH2e8_SZQKC8jNO0Dc/pub?embedded=true).
+## Table of Contents
+
+* [Game Details](#game-details)
+* [How to Play](#how-to-play)
+* [Dependencies](#dependencies)
+
+## Game Details
+
+The project is an arcade style game, in which the point is to cross the road and reach the river without being hit by the bugs. The player will start in the grass, and the bugs will move across the road at various speeds. If the player crosses the road without being hit by a bug, the player will win.
+
+If the player collides with a bug, the player will be reset to the starting point of the game.
+
+Once a player wins, a modal will pop up and inform the player they have won. Once they click OK, the player will then reset back to the start of the game and be able to play again if they choose.
+
+## How to Play
+
+The player is controlled by the arrow keys. Hitting the up arrow will move the character towards the water within the current column, while the back arrow will move the character back towards the start within th ecurrent column. The left arrow will move the character left within the current row, and the right arrow will move the character right within the current row.
+
+The goal of the game is to reach the water on the other side of the road, while avoiding the bugs. If all bugs are avoided and the player reaches the water, then the player wins and the game is over.
+
+## Dependencies
+
+Browser support for HTML5, CSS3, and Javascript with ES6.
