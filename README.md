@@ -18,6 +18,8 @@ Once a player wins, a modal will pop up and inform the player they have won. Onc
 
 ## How to Play
 
+In order to play this game, you must run it on your local machine. First, click on the "Clone or download" button on the main repository page (https://github.com/brycerairden/frontend-nanodegree-arcade-game) and select "Download ZIP". Open the downloaded file and unzip it to a local location (such as the desktop). Once unzipped, open "index.html" in the browser and start playing!
+
 The player is controlled by the arrow keys. Hitting the up arrow will move the character towards the water within the current column, while the back arrow will move the character back towards the start within th ecurrent column. The left arrow will move the character left within the current row, and the right arrow will move the character right within the current row.
 
 The goal of the game is to reach the water on the other side of the road, while avoiding the bugs. If all bugs are avoided and the player reaches the water, then the player wins and the game is over.
