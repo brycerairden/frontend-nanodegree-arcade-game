@@ -1,5 +1,5 @@
-# Memory Game Project
-Memory Game matching pairs of cards, built by Bryce Rairden, with a gaming theme.
+# Arcade Clone Project
+A frogger clone, built by Bryce Rairden, for the Udacity Front End Developer Nanodegree.
 
 
 ## Table of Contents
